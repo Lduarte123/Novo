@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    width: 100vh;
+    height: 100vh;
+    font-size: 62,5%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background: linear-gradient(rgb(16,16,16,0.5),rgb(25,25,25,0.5),url(img/97461019A1.avif));
+    background-position: center center;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    height: 7vw;
+    background-color: yellow;
+}
+.menu{
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+
+}
+.logo{
+    font-size: 1.8em;
+    letter-spacing: 0.40;
+    cursor: pointer;
+}
+.menu .lista{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.menu-list a{ 
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    transition: 2ms ease-in;
+    position: relative;
+    
+
+}
